@@ -1,0 +1,23 @@
+@import './scss/bootstrap';
+@import './scss/frontend';
+@import './scss/auth';
+@import './scss/screenLoader';
+
+
+body {
+    background: #d4a373;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    flex-grow: 1;
+}
